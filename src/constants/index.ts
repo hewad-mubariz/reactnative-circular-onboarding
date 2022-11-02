@@ -23,14 +23,14 @@ export const screens = [
       },
       {
         id: 3,
-        title: 'Send Money Abroad',
+        title: 'Report any error to Us',
         description:
           'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae',
         image: require('../../assets/onboarding3.png'),
       },
       {
         id: 4,
-        title: 'Pay Everywhere with Card',
+        title: 'Send Money Abroad',
         description:
           'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae',
         image: require('../../assets/onboarding4.png'),
