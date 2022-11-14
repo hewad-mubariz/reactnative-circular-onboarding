@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import {SafeAreaView, StyleSheet} from 'react-native';
+import {SafeAreaView} from 'react-native';
 import {screens} from './constants';
 
 import Home from './screens/Home';

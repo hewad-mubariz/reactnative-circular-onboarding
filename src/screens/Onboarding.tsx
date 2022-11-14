@@ -30,14 +30,14 @@ const Onboarding = ({onComplete, screens}: Props) => {
       animated: true,
     });
     setIndex(index + 1);
-    onCompleteCallback();
-  };
-  const onCompleteCallback = useCallback(() => {
     if (index === screens.length - 1) {
-      onComplete();
-      setIndex(0);
+      onCompleteCallback();
     }
-  }, [index]);
+  };
+  const onCompleteCallback = () => {
+    onComplete();
+    setIndex(0);
+  };
 
   return (
     <>
